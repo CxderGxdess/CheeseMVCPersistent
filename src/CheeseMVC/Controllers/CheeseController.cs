@@ -34,8 +34,6 @@ namespace CheeseMVC.Controllers
         [HttpPost]
         public IActionResult Add(AddCheeseViewModel addCheeseViewModel)
         {
-            CheeseCategory newCheeseCategory =
-                context.Categories.Single(c => c.ID == addCheeseViewModel.CategoryID);
 
             if (ModelState.IsValid)
             {

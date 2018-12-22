@@ -8,7 +8,6 @@ namespace CheeseMVC.Models
     public class CheeseMenu
     {
 
-        public readonly IList<CheeseMenu> CheeseMenus;
 
         public int MenuID { get; set; }
         public Menu Menu { get; set; }
